@@ -25,6 +25,7 @@ public class AppleList {
     public static class Apple{
         private String color, origin;
         private int price;
+        private int price1;
 
     public Apple(Builder builder){
         this.origin = builder.origin;
